@@ -1,0 +1,12 @@
+html{
+  margin:0;
+}
+body{
+  font-size: 15px;
+ margin-left: 150px;
+ margin-right: 150px;
+ font-family: "Montserrat",sans-serif;
+}
+body a {
+  text-decoration: none;
+}

@@ -1,0 +1,75 @@
+.header{
+  display: block;
+height: 60vh;
+  margin-top: 40px;
+  font-size: 25px;
+  margin-left: 150px;
+
+}
+.left_header{
+  width: 500px;
+float: left;
+}
+.name_header{
+
+}
+/* 1 block */
+#_name_header{
+  font-weight: bold;
+  font-size: 27px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+/* 2 block */
+.contact_header{
+  margin-left: -5px;
+  display: flex;
+  padding-top:  15px;
+  padding-bottom: 15px;
+  justify-content: space-around;
+  width: 200px;
+}
+/* 3 block */
+.button_header{
+  padding-top: 10PX;
+  margin-left: -10PX;
+  font-size: 20px;
+  display:flex;
+  color:#2b2a2c;
+}
+/* setting button */
+#h-butt1{
+border:1px solid black;
+border-radius: 25px;
+
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+}
+#h-butt2{
+border:1px solid black;
+border-radius: 25px;
+
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 10px;
+padding-right: 10px;
+margin-left: 10px;
+}
+.button_header a{
+  color:#969597;
+}
+.button_header :hover{
+  background-color: black;
+  color:#fff;
+}
+/* foto */
+.foto_header{
+  margin-top: -25px;
+  float:left;
+  height: 300px;
+  margin-left: 290px;
+  border-radius: 30px ;
+  overflow: hidden;
+}

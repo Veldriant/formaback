@@ -1,0 +1,66 @@
+.body_block1{
+  margin-left: 120px;
+  margin-right: 150px;
+  height: 100vh;
+  width: 70vw;
+  justify-content: space-around;
+
+
+}
+.project{
+    height: 100vh;
+  margin-top: -120px;
+display: flex;
+ float: left;                   /*   мместо для проектов */
+width: 70vw;
+display: grid;
+grid-template-columns: 450px 450px 450px;
+
+
+
+}
+.title_project{
+
+  height: 200px;
+  width: 300px;
+  background-color: GRAY;
+justify-content: space-around;
+border-radius:  10px 10px 0px 0px;
+
+}
+.model_project{
+
+  padding-bottom: 25px;
+  margin-left: 50px;
+  margin-right: 100px;
+  padding-right: 30PX;
+  justify-content: center;
+  height:30%;
+  background-color: #fff;
+}
+.a1{
+  border: 0.5px solid grey;
+  width: 299px;
+  height: 50px;
+}
+.load_body{
+  border: 1px solid black;
+  width: 200px;
+  padding-left: 50px;
+  padding-top: 10px;
+  padding-bottom:  10px;   /* кнопка загрузки */
+  border-radius: 20px;
+  margin-left: 620px;
+display: flex;
+margin-top: -400px;
+
+}
+#load_body1 a{
+color:#969597;
+}
+#load_body1 a:hover{
+  color:#fff;
+}
+.load_body:hover{
+  background-color: black;
+}
